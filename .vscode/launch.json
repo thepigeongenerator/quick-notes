@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Launch",
+      "program": "${workspaceFolder}/bin/quick-notes",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "build linux-x86_64"
+    }
+  ]
+}
