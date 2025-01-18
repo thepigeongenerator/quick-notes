@@ -2,8 +2,8 @@ NAME := quick-notes
 
 # compiler settings
 CC := clang
-CFLAGS = $(shell pkg-config --cflags gtk+-3.0) -Wall -g
-LDFLAGS = $(shell pkg-config --libs gtk+-3.0) -lm
+CFLAGS = $(shell pkg-config --cflags gtk4) -Wall -g
+LDFLAGS = $(shell pkg-config --libs gtk4) -lm
 
 # file locations
 DIR_BIN := bin
